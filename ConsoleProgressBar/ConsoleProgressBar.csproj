@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Billy Anglin</Authors>
+    <Company>Anglin.Tech</Company>
+    <Description>An ASCII progress bar for console applications</Description>
+    <Copyright>Copyright 2020 Billy Anglin</Copyright>
+    <PackageLicenseExpression />
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://billyanglin.visualstudio.com/ConsoleProgressBar/</PackageProjectUrl>
+    <PackageIconUrl>https://i.imgur.com/w7INDIq.png</PackageIconUrl>
+    <RepositoryUrl>https://billyanglin.visualstudio.com/_git/ConsoleProgressBar</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Progress Bar, Console</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>2.1.4.0</AssemblyVersion>
+    <FileVersion>2.1.4.0</FileVersion>
+    <Version>1.1.4</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
